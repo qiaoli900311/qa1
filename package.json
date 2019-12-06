@@ -1,0 +1,17 @@
+{
+    "name": "qiaoli",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qiaoli900311/qa1.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "main": "index.js",
+    "scripts": {
+        "check": "dpsl-cli check",
+        "lib": "vue build --target lib --name qiaoli --dest dist packages/index.js"
+    },
+    "devDependencies": {}
+}
